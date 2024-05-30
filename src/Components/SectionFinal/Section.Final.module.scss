@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("../../assets/IMAGE/Vector-Smart-Object-2copy-2.jpg");
+    min-height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            padding: 10px 0;
+            text-align: center;
+            width: 40%;
+            font-size: 48px;
+            font-weight: 900;
+            color: rgb(63, 56, 73);
+            cursor: pointer;
+        }
+        .bottomBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 30vh;
+            justify-content: space-around;
+            img {
+                border-radius: 50%;
+            }
+            p {
+                width: 50%;
+                text-align: center;
+                cursor: pointer;
+                color: rgb(141, 134, 152);
+                font-size: 18px;
+                font-weight: 400;
+                padding: 10px 0;
+            }
+            h3{
+                font-size: 16px;
+                font-weight: 800;
+                cursor: pointer;
+                color: rgb(125, 30, 255);
+                padding: 10px 0;
+
+            }
+            h5 {
+                font-size: 25px;
+                font-weight: 400;
+                color: rgb(141, 134, 152) ;
+                cursor: pointer;
+                padding: 10px 0;
+
+            }
+        }
+    }
+
+}

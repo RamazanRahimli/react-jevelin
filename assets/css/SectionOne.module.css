@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* .box {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #2B2B2B;
+  background-image: url("../../../assets//IMAGE/Ellipse-974-copy-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-position: left;
+  position: relative;
+}
+* .box .container {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+* .box .container .leftBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 40vh;
+}
+* .box .container .leftBox h1 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 60px;
+  color: white;
+}
+* .box .container .leftBox h1 span {
+  color: #994FFF;
+}
+* .box .container .leftBox h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+* .box .container .leftBox p {
+  color: #A099AB;
+  cursor: pointer;
+}
+* .box .container .rightBox {
+  width: 50%;
+}
+* .box .container .rightBox img {
+  height: 50%;
+  width: 440px;
+  margin-top: -40px;
+  margin-left: 200px;
+}

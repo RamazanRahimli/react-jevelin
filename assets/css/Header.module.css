@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+.box .container {
+  width: 85%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box .container img {
+  height: 50%;
+}
+.box .container .mediumBox {
+  width: 40%;
+}
+.box .container .mediumBox ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box .container .mediumBox ul li {
+  list-style-type: none;
+}
+.box .container .mediumBox ul a {
+  text-decoration: none;
+  color: white;
+}
+.box .container .mediumBox ul a:hover {
+  color: #B3B3B3;
+  transition: 0.2s;
+}
+.box .container .rightBox {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2px;
+}
+.box .container .rightBox .iconBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box .container .rightBox .iconBox h5 {
+  font-size: 25px;
+  cursor: pointer;
+  color: #7D1EFD;
+}
+.box .container .rightBox .iconBox p {
+  background-color: #7D1EFD;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 50%;
+  font-size: 10px;
+  color: white;
+  margin-top: -20px;
+  margin-left: -10px;
+}
+.box .container .rightBox button {
+  font-size: 15px;
+  padding: 10px 30px;
+  border-radius: 12px;
+  background-color: #7D1EFD;
+  border: 1px solid #7D1EFD;
+  color: white;
+  cursor: pointer;
+}
+.box .container .rightBox button:hover {
+  background-color: #AA6DFF;
+  border: 1px solid #AA6DFF;
+}

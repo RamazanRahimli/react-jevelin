@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    .container {
+        width: 85%;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            height: 50%;
+        }
+        .mediumBox {
+            width: 40%;
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                li {
+                    list-style-type: none;
+                }
+                a {
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        color: #B3B3B3;
+                        transition: 0.2s;
+                    }
+                }
+            }
+        }
+        .rightBox {
+            width: 20%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 2px;
+            .iconBox {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                h5 {
+                    font-size: 25px;
+                    cursor: pointer;
+                    color: #7D1EFD;
+                }
+                p {
+                    background-color: #7D1EFD;
+                    padding-left: 4px;
+                    padding-right: 4px;
+                    border-radius: 50%;
+                    font-size: 10px;
+                    color: white;
+                    margin-top: -20px;
+                    margin-left: -10px;
+                }
+            }
+            button {
+                font-size: 15px;
+                padding: 10px 30px;
+                border-radius: 12px;
+                background-color: #7D1EFD;
+                border: 1px solid #7D1EFD;
+                color: white;
+                cursor: pointer;
+                &:hover {
+                    background-color: #AA6DFF;
+                    border: 1px solid #AA6DFF;
+                }
+            }
+        }
+    }
+}
